@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="no-js" lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .circle {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .square {
+            background-color: green;
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            line-height: 100px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <div class="square"></div>
+    <div class="circle"></div>
+
+    <script>
+        document.querySelector(".square").textContent = "Green Square";
+        document.querySelector(".circle").textContent = "Red Circle";
+
+    </script>
+
+</body>
